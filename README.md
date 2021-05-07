@@ -80,3 +80,10 @@ file will only change the two players conditions, but will still use the game de
   </Items>
 </Config>   
 ```
+
+### Starting and Respawn conditions
+
+The XML file requires valid condition names (keys) to work, it is important to create your own custom conditions
+appropriate for both cases (starting and respawn) or the game will use the default ones (E.g. There is no 'Normal'
+starting codition by default, the game only defines 'Normal' as a respawn condition and needs to be added to the 
+game as an starting condition).
